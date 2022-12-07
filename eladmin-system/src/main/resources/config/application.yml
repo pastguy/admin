@@ -32,6 +32,13 @@ spring:
     password: ${REDIS_PWD:}
     #连接超时时间
     timeout: 5000
+    
+#数据库配置
+DB_HOST: sh-cynosdbmysql-grp-5q9yotw8.sql.tencentcdb.com
+DB_PORT: 27926
+DB_NAME: admin
+DB_USER: root
+DB_PWD: Sybercare@123
 
 task:
   pool:
